@@ -1,0 +1,82 @@
+/* Base styles for the body */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: background 0.5s ease;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Dark gradient */
+    color: white;
+  }
+  
+  /* Heading styling */
+  #heading {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  }
+  
+  /* Clock container */
+  .container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05); /* subtle frosted glass effect */
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+  }
+  
+  /* Time display */
+  #time {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  /* Date display */
+  #date {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #ddd;
+  }
+  
+  /* Theme toggle button */
+  .toggle-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .toggle-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Light theme styles */
+  .light-theme {
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    color: #333;
+  }
+  
+  .light-theme .container {
+    background: rgba(255, 255, 255, 0.6);
+    color: #222;
+  }
+  
+  .light-theme #date {
+    color: #444;
+  }
+  
+  .light-theme .toggle-btn {
+    background: black;
+    color: white;
+  }
