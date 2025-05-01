@@ -1,48 +1,71 @@
-📚 JavaScript Projects Collection
+# 📚 JavaScript Projects Collection
 
-✨ Overview
-Welcome to the JavaScript Projects Collection! 🚀
-This repository contains a growing set of mini-projects built with HTML5, CSS3, and Vanilla JavaScript.
-Each project helps sharpen skills in DOM manipulation, UI design, and dynamic interactions.
+## ✨ Overview
+Welcome to the **JavaScript Projects Collection**! 🚀  
+This repository includes a growing collection of beginner-to-intermediate level mini-projects built using **HTML5**, **CSS3**, and **Vanilla JavaScript**.
 
-📁 Current Projects
-🔹 1. Digital Clock ⏰
-Folder: /digital-clock
+These projects are designed to:
+- Enhance DOM manipulation skills 🧩
+- Strengthen frontend UI development 🎨
+- Improve interactive web app functionality ⚙️
 
-Real-time display of hours, minutes, and seconds.
+---
 
-Shows localized date with proper formatting.
+## 📁 Current Projects
 
-Includes a theme toggle button to switch between light and dark gradient backgrounds.
+### 🔹 1. Digital Clock ⏰
+**📂 Folder:** `/Digital_Clock`
 
-Clean and fully responsive design.
+**🧩 Features:**
+- Real-time display of **hours**, **minutes**, and **seconds**
+- Displays localized **date**
+- **Light/Dark theme toggle** using gradient backgrounds
+- Responsive and clean user interface
 
-🛠 How to Run
-bash
-Copy
-Edit
+---
+
+### 🔹 2. Countdown Timer ⏳
+**📂 Folder:** `/Count_Down`
+
+**🧩 Features:**
+- User inputs time in seconds
+- Countdown starts on button click
+- Includes **Pause** and **Restart** functionality
+- Displays validation messages for incorrect input
+- Fully responsive and user-friendly design
+
+---
+
+## 🛠 How to Run
+
+```bash
 # Clone the repository
 git clone https://github.com/your-username/your-repo-name.git
 
-# Navigate to the project directory
+# Navigate to a specific project
 cd digital-clock
+# or
+cd countdown-timer
 
 # Open index.html in your browser
-Or simply double-click on the index.html file after downloading.
-
-📂 Project Structure Example
+# Or double-click on index.html after downloading
+📂 Project Structure
 bash
 Copy
 Edit
-/digital-clock
-  ├── index.html   # HTML markup
-  ├── clock.css    # Styling (CSS)
-  └── clock.js     # Functionality (JavaScript)
-Each project will have its own folder with a similar structure.
+/javascript-projects
+  ├── /digital-clock
+  │   ├── index.html
+  │   ├── clock.css
+  │   └── clock.js
+  │
+  └── /countdown-timer
+      ├── index.html
+      ├── timer.css
+      └── timer.js
+Each project resides in its own folder with separate files for HTML, CSS, and JavaScript.
 
 🌱 Upcoming Projects
-✅ Countdown Timer
-
 ✅ Random Quote Generator
 
 ✅ Tip Calculator
@@ -51,17 +74,23 @@ Each project will have its own folder with a similar structure.
 
 ✅ To-Do List App
 
-...and many more to come!
+⏳ BMI Calculator
 
-Stay tuned! 🎯
+⏳ Quiz App
+
+⏳ Form Validator
+
+Stay tuned for more updates! 🎯
 
 🧰 Tech Stack
-Frontend:
+🖥 Frontend
+HTML5
 
+CSS3
 
+JavaScript (Vanilla)
 
-Tools:
-
+🛠 Tools
 Visual Studio Code
 
 Git & GitHub
@@ -73,5 +102,4 @@ Praharsh Pranjal
 
 📜 License
 This repository is open-source and available under the MIT License.
-Feel free to fork, contribute, and suggest improvements!
-
+Feel free to fork, use, and contribute!
