@@ -34,19 +34,31 @@ These projects are designed to:
 - Displays validation messages for incorrect input
 - Fully responsive and user-friendly design
 
+### 🔹 3. Color Picker 🎨
+**📂 Folder:** `/Color_Picker`
+**🧩 Features:**
+
+- Pick colors using the HTML color input
+- Displays selected color code (#HEX)
+- Shows complementary colors
+- Save your favorite colors (localStorage support)
+- Copy color code with one click
+- Responsive, animated UI with modern design
+
 ---
 
 ## 🛠 How to Run
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/praharsh13/JS-Projects
 
 # Navigate to a specific project
-cd digital-clock
+cd digital_clock
 # or
-cd countdown-timer
-
+cd countdown_timer
+# or
+cd color_picker
 # Open index.html in your browser
 # Or double-click on index.html after downloading
 📂 Project Structure
