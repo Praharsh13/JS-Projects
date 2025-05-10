@@ -13,7 +13,7 @@ These projects are designed to:
 
 ## 📁 Current Projects
 
-### 🔹 1. Digital Clock ⏰
+### 🔹 1. Digital Clock ⏰  
 **📂 Folder:** `/Digital_Clock`
 
 **🧩 Features:**
@@ -24,7 +24,7 @@ These projects are designed to:
 
 ---
 
-### 🔹 2. Countdown Timer ⏳
+### 🔹 2. Countdown Timer ⏳  
 **📂 Folder:** `/Count_Down`
 
 **🧩 Features:**
@@ -34,16 +34,29 @@ These projects are designed to:
 - Displays validation messages for incorrect input
 - Fully responsive and user-friendly design
 
-### 🔹 3. Color Picker 🎨
-**📂 Folder:** `/Color_Picker`
-**🧩 Features:**
+---
 
+### 🔹 3. Color Picker 🎨  
+**📂 Folder:** `/Color_Picker`
+
+**🧩 Features:**
 - Pick colors using the HTML color input
 - Displays selected color code (#HEX)
 - Shows complementary colors
 - Save your favorite colors (localStorage support)
 - Copy color code with one click
 - Responsive, animated UI with modern design
+
+---
+
+### 🔹 4. Quote Generator 📝  
+**📂 Folder:** `/Quote_Generator`
+
+**🧩 Features:**
+- Generates random quotes from a list
+- Simple and elegant UI with glowing buttons
+- Built with clean animations and responsive design
+- Ideal for practicing DOM manipulation
 
 ---
 
@@ -59,40 +72,34 @@ cd digital_clock
 cd countdown_timer
 # or
 cd color_picker
+# or
+cd quote_generator
+
 # Open index.html in your browser
 # Or double-click on index.html after downloading
+
 📂 Project Structure
-bash
-Copy
-Edit
 /javascript-projects
   ├── /digital-clock
   │   ├── index.html
   │   ├── clock.css
   │   └── clock.js
   │
-  └── /countdown-timer
+  ├── /countdown-timer
+  │   ├── index.html
+  │   ├── timer.css
+  │   └── timer.js
+  │
+  ├── /color-picker
+  │   ├── index.html
+  │   ├── index.css
+  │   └── index.js
+  │
+  └── /quote-generator
       ├── index.html
-      ├── timer.css
-      └── timer.js
-Each project resides in its own folder with separate files for HTML, CSS, and JavaScript.
+      ├── index.css
+      └── index.js
 
-🌱 Upcoming Projects
-✅ Random Quote Generator
-
-✅ Tip Calculator
-
-✅ Weather App
-
-✅ To-Do List App
-
-⏳ BMI Calculator
-
-⏳ Quiz App
-
-⏳ Form Validator
-
-Stay tuned for more updates! 🎯
 
 🧰 Tech Stack
 🖥 Frontend
@@ -112,6 +119,3 @@ Praharsh Pranjal
 📧 praharsh.pranjal13@gmail.com
 🌍 MERN Stack Developer | Frontend Enthusiast
 
-📜 License
-This repository is open-source and available under the MIT License.
-Feel free to fork, use, and contribute!
