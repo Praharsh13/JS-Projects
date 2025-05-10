@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript Projects Menu</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: #fff;
+    }
+
+    .container {
+      background: #1e2a38;
+      padding: 3rem 2rem;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+      text-align: center;
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .container h1 {
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      color: #f1f1f1;
+    }
+
+    .project {
+      margin: 1rem 0;
+      position: relative;
+    }
+
+    .project a {
+      text-decoration: none;
+    }
+
+    .project button {
+      background: #2c3e50;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 12px;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      width: 100%;
+      max-width: 400px;
+      transition: 0.3s ease;
+      box-shadow: inset 0 -3px 0 rgba(255,255,255,0.1);
+    }
+
+    .project button:hover {
+      background: #34495e;
+      transform: translateY(-2px);
+    }
+
+    .tooltiptext {
+      visibility: hidden;
+      background-color: rgba(0, 0, 0, 0.75);
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 0.5rem 1rem;
+      position: absolute;
+      bottom: 130%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+      width: max-content;
+      max-width: 300px;
+      font-size: 0.875rem;
+      line-height: 1.4;
+    }
+
+    .project:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 2rem 1rem;
+      }
+
+      .project button {
+        font-size: 0.95rem;
+        padding: 0.8rem 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>🚀 JavaScript Projects Menu</h1>
+
+    <div class="project">
+      <span class="tooltiptext">🎨 Pick a color, get its HEX code and complementary shades. Save your favorites!</span>
+      <a href="./Color_Picker/colorpicker.html">
+        <button>Color Picker App</button>
+      </a>
+    </div>
+
+    <div class="project">
+      <span class="tooltiptext">⏳ Enter time in seconds, countdown with Pause and Restart functionality.</span>
+      <a href="./Count_Down/index.html">
+        <button>Countdown Timer</button>
+      </a>
+    </div>
+
+    <div class="project">
+      <span class="tooltiptext">⏰ Shows current time with date and light/dark mode toggle.</span>
+      <a href="./Digital_Clock/clock.html">
+        <button>Digital Clock</button>
+      </a>
+    </div>
+
+    <div class="project">
+      <span class="tooltiptext">📜 Generates random motivational quotes with elegant design.</span>
+      <a href="./Random_quote_generator/index.html">
+        <button>Quote Generator</button>
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
