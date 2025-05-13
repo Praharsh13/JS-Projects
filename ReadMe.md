@@ -73,6 +73,16 @@ These projects are designed to:
 
 ---
 
+### 🔹 4. Tip Calculator 💸
+**📂 Folder:** /Tip_Calculator
+
+**🧩 Features:**
+
+- Calculates total tip and tip per person based on user input
+- Clean, glassmorphic UI with smooth transitions and gradients
+- Inputs reset automatically after calculation
+- Great for practicing DOM manipulation and basic arithmetic logic
+
 ## 🛠 How to Run
 
 ```bash
@@ -95,7 +105,8 @@ pgsql
 Copy
 Edit
 /javascript-projects
-├── index.html                # Main project menu
+├── index.html                     # Main project menu
+│
 ├── /Digital-Clock
 │   ├── clock.html
 │   ├── clock.css
@@ -111,10 +122,15 @@ Edit
 │   ├── index.css
 │   └── index.js
 │
-└── /Random_quote_generator
-    ├── index.html
+├── /Random_quote_generator
+│   ├── index.html
+│   ├── index.css
+│   └── index.js
+│
+└── /Tip_Calculator
+    ├── tipcal.html
     ├── index.css
-    └── index.js
+    └── script.js
 🧰 Tech Stack
 🖥 Frontend
 HTML5
