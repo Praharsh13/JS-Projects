@@ -73,16 +73,40 @@ These projects are designed to:
 
 ---
 
-### 🔹 4. Tip Calculator 💸
-**📂 Folder:** /Tip_Calculator
+
+### 🔹 6. Palindrome Sentence Checker 🔁
+**📂 Folder:** /Palindrome_Checker
 
 **🧩 Features:**
+- Checks if a sentence is a palindrome, ignoring:
+- Spaces
+- Punctuation
+- Real-time or button-based result display
+- Highlights whether the input is a palindrome or not
+- Smooth, professional UI with focus/hover effects
+- Teaches string processing, sanitization, and logic  building
 
-- Calculates total tip and tip per person based on user input
-- Clean, glassmorphic UI with smooth transitions and gradients
-- Inputs reset automatically after calculation
-- Great for practicing DOM manipulation and basic arithmetic logic
+### 🔹 7. Basic Calculator ➕➖✖️➗
+**📂 Folder:** /Basic_Calculator
 
+**🧩 Features:**
+- Perform basic arithmetic:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Responsive number and operator buttons
+- Clear and reset functions included
+- Optionally supports keyboard input
+- Simple, minimalist UI built using Flexbox or Grid
+
+Great for practicing:
+
+Event handling
+
+Conditionals
+
+Dynamic DOM updates
 ## 🛠 How to Run
 
 ```bash
