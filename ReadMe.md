@@ -151,10 +151,21 @@ Edit
 │   ├── index.css
 │   └── index.js
 │
-└── /Tip_Calculator
-    ├── tipcal.html
-    ├── index.css
-    └── script.js
+├── /Tip_Calculator
+│   ├── tipcal.html
+│   ├── index.css
+│   └── script.js
+│
+├── /Palindrome_Checker
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+└── /Vs_Calculator
+    ├── calculator.html
+    ├── calculator.css
+    └── calculator.js
+
 🧰 Tech Stack
 🖥 Frontend
 HTML5
